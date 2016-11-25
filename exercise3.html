@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+    $("button").click(function(){
+       var img =$("img");
+       
+       img.animate({height: '300px', opacity: '0.8'}, "slow");
+       img.animate({width: '300px', opacity: '1'}, "slow");
+      img.animate({left:'500px'},"slow");
+     
+        });
+    });
+
+</script> 
+</head>
+<body>
+
+<button>Start Animation</button></br>
+
+<img src="http://ideapit.com/timgs/201602/afa4rs20160225173043.jpg" style="width:100px;height:100px;position:absolute">
+</img>
+
+
+</body>
+</html>
